@@ -1,0 +1,19 @@
+#p1::before {
+    content: "przed elementem";
+    color: red;
+}
+
+#p2::after {
+    content: "po elemencie";
+    color: blue;
+}
+
+#p3::first-letter {
+color:deeppink;
+text-transform:lowercase;
+}
+
+#p4::first-line {
+color:deeppink;
+content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+}
