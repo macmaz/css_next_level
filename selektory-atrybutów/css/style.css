@@ -1,0 +1,30 @@
+/*
+.klient:nth-child(even){
+    background-color: beige;
+*/
+}
+
+div[suma] {
+    background-color:aqua;
+}
+
+div[suma="1500"] {
+    background-color: red;
+}
+/*wyszukuje dokładną wartość*/
+div[biznesowy="tak"]{
+    background-color: violet;
+}
+/*musi być oddzielone spacją*/
+div[biznesowy~="tak"] {
+    color:chartreuse;
+}
+
+/*nie musi być oddzielone spacją*/
+div[biznesowy*="może"]{
+    color:crimson;
+}
+
+div[suma$="60"] {
+    color:goldenrod;
+}
