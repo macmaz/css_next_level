@@ -1,0 +1,21 @@
+img {
+    transform-origin: 120% 35% ;
+}
+
+.rotate img {
+    transform: rotate(170deg);
+}
+
+.translate img {
+    transform: translate(500px, -100px);
+}
+
+.scale img:hover {
+    transform: scale(1.5);
+    transform-origin: -100% 40%;
+}
+
+.img {
+    position: absolute;
+       top: 33%
+}
